@@ -17,14 +17,21 @@
         .content {
             text-align: center;
         }
+        .ad-container {
+            border: 2px solid black; /* Add a black border around the advertising tag */
+            padding: 10px; /* Add some padding to the container */
+            margin-top: 20px; /* Add some space between the content and the advertising tag */
+        }
     </style>
 </head>
 <body>
     <div class="content">
         <h1>Hello, World!</h1>
-        <!-- Revive Adserver Asynchronous JS Tag - Generated with Revive Adserver v5.5.1 -->
-        <ins data-revive-zoneid="4" data-revive-id="ba438dac9332c0bc3ab972c7f963667b"></ins>
-        <script async src="//16.171.41.51:8080/www/delivery/asyncjs.php"></script>
+        <div class="ad-container"> <!-- Wrap the advertising tag in a div with a class -->
+            <!-- Revive Adserver Asynchronous JS Tag - Generated with Revive Adserver v5.5.1 -->
+            <ins data-revive-zoneid="4" data-revive-id="ba438dac9332c0bc3ab972c7f963667b"></ins>
+            <script async src="//16.171.41.51:8080/www/delivery/asyncjs.php"></script>
+        </div>
     </div>
 </body>
 </html>
